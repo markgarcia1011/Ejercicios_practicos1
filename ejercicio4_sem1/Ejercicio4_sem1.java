@@ -4,14 +4,14 @@ public class Ejercicio4_sem1 {
    double AFPT, AFPE, pagoAFP, pagoT, pagoF, sueldo ;
 
 
-        sueldo= 500;
+        Sueldo= 500;
         AFPT= 0.06;
         AFPE = 0.065;
-        pagoAFP = sueldo* AFPT;
+        PagoAFP = Sueldo* AFPT;
 
-            pagoT = sueldo * AFPE; pagoF = pagoAFP + pagoT;
+            PagoT = Sueldo * AFPE; PagoF = PagoAFP + PagoT;
 
-        System.out.println("Usted esta pagando a AFP la cantidad de:" + pagoF);
+        System.out.println("Usted esta pagando a AFP la cantidad de:" + PagoF);
     }
 
 }
