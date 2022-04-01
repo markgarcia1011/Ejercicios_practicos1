@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 public class Ejercicio6_sem1 {
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         NumberFormat formato = new DecimalFormat("#0.00");
          double promedio, ev1, ev2, ev3, ev4, ev5;
          
