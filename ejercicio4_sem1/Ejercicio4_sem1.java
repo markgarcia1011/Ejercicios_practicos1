@@ -1,28 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package ejercicio3_sem1;
+public class Ejercicio4_sem1 {
+    public static void main(String[] args) {
 
-public  class  Ejercicio3_sem1 {
-    
-public  static  void  main ( String [] args ) {
-
-// Declaración de variables
-
-  double salarioTL, renta, rentaTL,sueldoxH, hora, total;
+   double AFPT, AFPE, pagoAFP, pagoT, pagoF, sueldo ;
 
 
-     sueldoxH =  8 ;
-     hora =  36 ;
-     renta =  0.10 ;
+        sueldo= 500;
+        AFPT= 0.06;
+        AFPE = 0.065;
+        pagoAFP = sueldo* AFPT;
 
-     salarioTL = sueldoxH * hora;
-     rentaTL = salarioTL * renta;
-     total = salarioTL - rentaTL;
+            pagoT = sueldo * AFPE; pagoF = pagoAFP + pagoT;
 
+        System.out.println("Usted esta pagando a AFP la cantidad de:" + pagoF);
+    }
 
-     sistema _ fuera _ println( " El salario total es: "  + total);
-   }
 }
